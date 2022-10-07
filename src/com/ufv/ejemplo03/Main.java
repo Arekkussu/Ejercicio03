@@ -6,7 +6,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Persona p = new Persona();
+        Perritos perro = new Perritos();
 
+        System.out.println("Escribe la raza del perro");
+        perro.setRaza(sc.nextLine());
 
         System.out.println("Escribe tu nombre");
         p.setNombre(sc.nextLine());
@@ -24,6 +27,7 @@ public class Main {
         System.out.println("Hola: " + p.getNombre());
         System.out.println("Apellidos: " + p.getApellidos());
         System.out.println("Dni: " + p.getDni());
+        System.out.println("Edad: " + p.getEdad());
         System.out.println("Edad: " + p.getEdad());
 
 
